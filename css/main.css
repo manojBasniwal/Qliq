@@ -56,39 +56,39 @@
     overflow: hidden;
 }
 .jumbotron-section{
- background-image: url(../images/PurpleCircle.png);
-background-repeat: no-repeat;
-background-position: 100% 0%;
-background-size: 40%;
+  background-image: url(../images/PurpleCircle.png);
+ background-repeat: no-repeat;
+ background-position: 100% 0%;
+ background-size: 40%;
 }
 .jumbotron .circle{
     position: relative;
 }
 .jumbotron .circle .cards2{
-    transform: translate(-40px, -11px) rotate(-35deg)!important;
+    transform: translate(30px, 0px) rotate(-35deg)!important;
 }
 .jumbotron .circle .cards1{
-    width: 456px;
-    height: 230px;
+    width: 382px;
+    height: 210px;
     display: flex;
     position: absolute;
     top: 97px;
-    transform: translate(12px, 30px) rotate(-20deg);
+    transform: translate(80px, 30px) rotate(-20deg);
     box-shadow: 48px 24px 48px rgba(24, 37, 56, 0.12);
 }
 .jumbotron .circle .cards-img{
-    width: 195px;
+    width: 164px;
     background-color: lightsteelblue;
 }
 .jumbotron .circle .cards-img h6{
     text-align: center;
     margin: 10px 0;
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 27px;
+    font-size: 16px;
 }
 .jumbotron .circle .cards1 .card-title{
-    margin-top: 25px;
-    margin-left: 27px;
+    margin-top: 18px;
+    margin-left: 13px;
 }
 .jumbotron .circle .cards1 .card-title i{
     margin-right: 10px;
@@ -101,8 +101,7 @@ background-size: 40%;
 .jumbotron .circle .cards1 .card-title-section .card-logo{
     display: flex;
     justify-content: center;
-    margin-top: 34px;
-    
+    margin-top: 24px; 
 }
 .jumbotron .circle .cards1 .card-title-section .card-logo .icon{
     width: 29px;
@@ -114,13 +113,13 @@ background-size: 40%;
     align-items: center;
     text-decoration: none;
     margin-left: 10px;
-
 }
 .jumbotron .circle .cards1 img{
-    width: 130px;
+    width: 111px;
+    height: 111px;
     border-radius: 50%;
-    margin-top: 20px;
-    margin-left: 32px;
+    margin-top: 15px;
+    margin-left: 21px;
 } 
 .jumbotron h1{
     font-size: 57px;
@@ -140,10 +139,13 @@ background-size: 40%;
 .why-qliq-section{
     overflow: hidden;
 }
+.why-qliq-section .container .row{
+    overflow: hidden;
+}
 .why-qliq-section .qliq-image-section{
     position: relative;
     margin-left: -410px;
-    transition: .3s linear;
+    transition: 1s linear;
 } 
 .why-qliq-section .qliq-image-section .vector{
     position: absolute;
@@ -159,7 +161,7 @@ background-size: 40%;
     position: relative;
     margin-left: 200%;
     height: 456px;
-    transition: .3s linear;
+    transition: 1s linear;
 } 
 .why-qliq-section:hover .qliq-text-section{
     margin-left: 0;
@@ -208,7 +210,6 @@ background-color: orange;
     height: 3px;
     background-color: #F29E38;
     transform: translate(0px, 50px);
-
 }
 .container .heading::before{
     content: "";
@@ -218,7 +219,6 @@ background-color: orange;
     height: 3px;
     background-color: #F29E38;
     transform: translate(0px, 50px);
-
 }
 .work-section .work-text1{
     margin-left: 90px;
@@ -286,7 +286,7 @@ background-color: orange;
     border-radius: 50%;
     display: flex;
     justify-content: center;
-   align-items: center;    
+    align-items: center;    
 }
 
 .our-clients-section .colan-img{
@@ -295,12 +295,12 @@ background-color: orange;
     z-index: -1;
 }
 .our-clients-section .carousel .row .box{
-background-color: white;
-text-align: center;
-padding: 23px;
-position: relative;
-border-radius: 10px;
-box-shadow: 0 0 9px 0 rgba(0,0,0,0.3);
+   background-color: white;
+   text-align: center;
+   padding: 23px;
+   position: relative;
+   border-radius: 10px;
+   box-shadow: 0 0 9px 0 rgba(0,0,0,0.3);
 }
 .our-clients-section .carousel .row .box::after{
     content: "";
@@ -331,6 +331,16 @@ box-shadow: 0 0 9px 0 rgba(0,0,0,0.3);
     border-radius: 50%!important;
     border: 2px solid orange!important;
 }
+.our-clients-section .carousel-control-prev img{
+    width: 50px;
+    position: absolute;
+    left: -38px;
+}
+.our-clients-section .carousel-control-next img{
+    width: 50px;
+    position: absolute;
+    right: -38px;
+}
 .get-deals-section{
     overflow: hidden;
 }
@@ -355,7 +365,6 @@ box-shadow: 0 0 9px 0 rgba(0,0,0,0.3);
     height: 467px;
     border: 1px solid #F1E4FF;
     border-radius: 50%;
-    /* position: absolute; */
     transition: .5s ease-in-out; 
 }
 .get-deals-section:hover .main-circle{
@@ -369,27 +378,11 @@ box-shadow: 0 0 9px 0 rgba(0,0,0,0.3);
     position: absolute;
     top: calc(50% - 160px);
     left: calc(50% - 160px);
-
     transition: .5s ease-in-out
-    /*animation-name: circle1-animation;
-    animation-duration: 3s;
-    animation-direction: reverse;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;  */
 }
 .get-deals-section:hover .child-circle{
     rotate: -30deg;
 }
-/* .get-deals-section .main-circle .child-circle{
-    width: 320px;
-    height: 320px;
-    border: 60px solid #F1E4FF;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
 .get-deals-section .child-circle .img1{
     width: 65px;
     height: 65px;
@@ -432,7 +425,6 @@ box-shadow: 0 0 9px 0 rgba(0,0,0,0.3);
 }
 .manage-cards-section .container .text-section p{
     font-size: 17px;
-
 }
 .manage-cards-section .container .button img{
     height: 41px;
@@ -485,15 +477,15 @@ box-shadow: 0 0 9px 0 rgba(0,0,0,0.3);
 }
 .copy-right-section .card-logo a{
     width: 29px;
-height: 29px;
-color: white;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
-text-decoration: none;
-margin-left: 30px;
-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.3);
+    height: 29px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 30px;
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.3);
 }
 .work-section .work-img1 .circle-1::after{
     content: url("../images/Vector74.png");
@@ -515,10 +507,6 @@ box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.3);
     padding-bottom: 13px;
 }
 
-
-
-
-
 @media screen and (max-width: 992px) {
     .work-section .work-img1 div {
         transform: translate(35px, -105px);  
@@ -530,6 +518,42 @@ box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.3);
         height: 460px;
         margin-top: 25px;
       }
+      .get-deals-section .child-circle{
+        top: calc(50% - 160px);
+        left: calc(34% - 160px);
+      }
+      .jumbotron .circle{
+        height: 440px;
+    }
+    .jumbotron .circle .cards1{
+        width: 307px;
+        height: 186px;
+        transform: translate(40px, -10px) rotate(-20deg);
+    }
+    .jumbotron .circle .cards-img{
+        width: 139px;
+    }
+    .jumbotron .circle .cards1 img{
+        width: 100px;
+        height: 100px;
+        margin-top: 9px;
+        margin-left: 5px;
+    }
+    .jumbotron .circle .cards img h6{
+        margin: 5px 0;
+        line-height: 21px;
+    }
+    .jumbotron .circle .cards1 .card-title{
+        margin-left: 9px;
+        font-size: 14px;
+    }
+    .jumbotron .circle .cards-img h6{
+        margin: 3px 0;
+        line-height: 22px;
+    }
+    .jumbotron .circle .cards2{
+        transform: translate(7px, -30px) rotate(-32deg)!important;
+    }  
   }
 
   @media screen and (max-width: 768px) {
@@ -561,7 +585,7 @@ box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.3);
     .carousel .row .box {
         margin-top: 40px; 
     }
-    .get-deals-section .main-circle .child-circle{
+    .get-deals-section .child-circle{
         width: 256px;
         height: 256px;
         border: 34px solid #F1E4FF;
@@ -594,6 +618,20 @@ box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.3);
         align-items: center;
         margin-top: 16px;
       }
+      .our-clients-section .carousel-control-prev img{
+        width: 50px;
+        position: absolute;
+        left: -20px;
+    }
+    .our-clients-section .carousel-control-next img{
+        width: 50px;
+        position: absolute;
+        right: -20px;
+    }
+    .get-deals-section .child-circle{
+        top: calc(58% - 160px);
+        left: calc(42% - 160px);
+      }
   }
   @media screen and (max-width: 576px) {
     .manage-cards-section .img-section .img1 {
@@ -616,111 +654,23 @@ box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.3);
     .our-clients-section{
         background-position: 100% 12%;
       }
-    
+      .our-clients-section .carousel-control-prev img{
+        width: 50px;
+        position: absolute;
+        left: 55px;
+    }
+    .our-clients-section .carousel-control-next img{
+        width: 50px;
+        position: absolute;
+        right: 55px;
+    }
   }
-  
-  /* .our-clients-section .container .heading::before{
-    content: url(/images/“.png);
-    position: absolute;
-    transform: translate(874px, -102px);
-    background-image: url(/images/“.png);
-  } */
-  /* .our-clients-section .carousel-inner::before{
-    content: url(/images/“.png);
-    position: absolute;
-    transform: translate(874px, -102px);
-  } */
   .our-clients-section{
     background-image: url(/images/“.png);
     background-repeat: no-repeat;
     background-position: 96% 15%;
   }
-
   .why-qliq-section:hover .qliq-image-section{
    margin-left: 0;
 
-}
-
-  
-  
-  /* .why-qliq-section .qliq-image-section{
-    transform: translate(-523px, 0px);
-    overflow: hidden;
-  }
-
-.why-qliq-section .qliq-text-section{
-    transform: translate(523px, 0px);
-    overflow: hidden;
-  }
-  .why-qliq-section:hover .qliq-text-section{
-    transform: none;
-    animation-name: text-animation;
-    animation-duration: 2s;
-    animation-iteration-count: unset;
-    animation-direction: reverse;
-    animation-timing-function: linear; 
-
-}
-
-.unique-section .container .card1{
-    left: -10px;
-    transform: translate(-50, -50);
-    overflow: hidden;
-}
-.unique-section:hover .card1{
-    transform: none;
-    animation-name: card1;
-    animation-duration: 2s;
-    animation-iteration-count: unset;
-    animation-direction: reverse;
-    animation-timing-function: linear;
-}
-.unique-section .container .card2{
-    transform: translate(400px);
-    overflow: hidden;
-}
-.unique-section:hover .card2{
-    transform: none;
-    animation-name: card2;
-    animation-duration: 2s;
-    animation-iteration-count: unset;
-    animation-direction: reverse;
-    animation-timing-function: linear;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-  /* @keyframes circle-animation {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(30deg);}
-  }
-  @keyframes circle1-animation {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(30deg);}
-  }
-  @keyframes line-animation {
-    100% {transform: translate(-300px);}
-    0% {transform: translate(0px);}
-  }
-  @keyframes text-animation {
-    100% {transform: translate(500px);}
-    0% {transform: translate(0px);}
-  }
-  @keyframes card1 {
-    100% {transform: translate(-400px);}
-    0% {transform: translate(0px);}
-  }
-  @keyframes card2 {
-    100% {transform: translate(400px);}
-    0% {transform: translate(0px);}
-  } */
-  
+}  
