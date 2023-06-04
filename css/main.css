@@ -506,6 +506,10 @@ background-color: orange;
     padding-top: 13px;
     padding-bottom: 13px;
 }
+.our-clients-section .carousel-indicators .active{
+    opacity: 1;
+    background-color: #F29E38;
+}
 
 @media screen and (max-width: 992px) {
     .work-section .work-img1 div {
@@ -619,13 +623,13 @@ background-color: orange;
         margin-top: 16px;
       }
       .our-clients-section .carousel-control-prev img{
-        width: 50px;
-        position: absolute;
+        /* width: 50px;
+        position: absolute; */
         left: -20px;
     }
     .our-clients-section .carousel-control-next img{
-        width: 50px;
-        position: absolute;
+        /* width: 50px;
+        position: absolute; */
         right: -20px;
     }
     .get-deals-section .child-circle{
@@ -655,14 +659,14 @@ background-color: orange;
         background-position: 100% 12%;
       }
       .our-clients-section .carousel-control-prev img{
-        width: 50px;
-        position: absolute;
-        left: 55px;
+        /* width: 50px;
+        position: absolute; */
+        left: 26px;
     }
     .our-clients-section .carousel-control-next img{
-        width: 50px;
-        position: absolute;
-        right: 55px;
+        /* width: 50px;
+        position: absolute; */
+        right: 26px;
     }
     .get-deals-section .child-circle{
        top: calc(58% - 160px);
