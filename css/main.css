@@ -664,6 +664,10 @@ background-color: orange;
         position: absolute;
         right: 55px;
     }
+    .get-deals-section .child-circle{
+       top: calc(58% - 160px);
+       left: calc(59% - 160px);
+    }
   }
   .our-clients-section{
     background-image: url(/images/“.png);
