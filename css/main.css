@@ -548,7 +548,7 @@ background-color: orange;
         line-height: 21px;
     }
     .jumbotron .circle .cards1 .card-title{
-        margin-left: 9px;
+        margin-left: 8px;
         font-size: 14px;
     }
     .jumbotron .circle .cards-img h6{
@@ -623,13 +623,9 @@ background-color: orange;
         margin-top: 16px;
       }
       .our-clients-section .carousel-control-prev img{
-        /* width: 50px;
-        position: absolute; */
         left: -20px;
     }
     .our-clients-section .carousel-control-next img{
-        /* width: 50px;
-        position: absolute; */
         right: -20px;
     }
     .get-deals-section .child-circle{
@@ -659,18 +655,18 @@ background-color: orange;
         background-position: 100% 12%;
       }
       .our-clients-section .carousel-control-prev img{
-        /* width: 50px;
-        position: absolute; */
         left: 26px;
     }
     .our-clients-section .carousel-control-next img{
-        /* width: 50px;
-        position: absolute; */
         right: 26px;
     }
     .get-deals-section .child-circle{
        top: calc(58% - 160px);
        left: calc(59% - 160px);
+    }
+    .jumbotron .circle .cards1 .card-title-section .card-logo .icon{
+        width: 20px;
+        height: 20px;
     }
   }
   .our-clients-section{
@@ -681,4 +677,4 @@ background-color: orange;
   .why-qliq-section:hover .qliq-image-section{
    margin-left: 0;
 
-}  
+}
